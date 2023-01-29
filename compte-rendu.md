@@ -44,8 +44,11 @@ echo "valeur" > nomFichier.txt|ecrire dans un fichier texte | echo "valeur">nomF
 cat "nomFichier"| afficher le contenu d'un fichier texte| more nomFichier.txt
 rm nomFichier|supprimer fichier| rm nomFichier
 rmdir nomFichier| supprimer repertoire | rmdir nomFichier
-find 
-
+find nomFichier | trouver un fichier ou repertoire et afficher son emplacement ou si il existe ..| where nomFichier
+grep nomRepertoire "caractere recherché" | chercher une chaine de caracteres dans un fichier texte et afficher son emplacement | findstr "chaine de caracteres" nomReperotoire
+cp nomFichierSource nomFichierDestination | copier un fichier a un autre endroit | copy 
+mv fichierSource fichierDestination | deplacer un fichier | move fichierSource fichierDestination 
+chmod [chiffre] nomFichier|changer les droits d'un fichier| attrib [options]
 
 # Détail et utilisations des commandes Linux :
 
