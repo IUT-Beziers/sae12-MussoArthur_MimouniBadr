@@ -5,7 +5,7 @@
 ## Présentation :
 Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS les plus utilisé sous linux et windows.
 * ### <u>Arthur :</u> Création de toute la partie commandes Réseau. Ajout d'un bouton static en HTML/CSS pour pouvoir remonter tout en haut de la page.
-* ### <u>Badr :</u> Création de toute la partie commandes OS.
+* ### <u>Badr :</u> Création de toute la partie commandes OS.Schéma Draw.io
 ## Sommaire :
 * [Commandes Réseaux](#commandes-réseau)
 * [Commandes OS](#commandes-os)
@@ -33,22 +33,22 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 # Commandes OS
 | LINUX | UTILITE | WINDOWS 
 |-|-|-|
-cd "nom Fichier"|se déplacer | cd 
-ls|donne la liste ds fichiers et répértoires|dir
-tree| arborescence des fichiers|tree
-alias nomV="contenu"|attribuer une donnée ou chaine de caracteres a une variable | set nomV="contenu"
-mkdir "nomRepertoire"|créer un répértoire| mkdir "nom repertoire"
-pwd|afficher le repertoire courant|..
-touch "nomFichier"| creer fichier | md "nomFichier"
-echo "valeur" > nomFichier.txt|ecrire dans un fichier texte | echo "valeur">nomFichier.txt
-cat "nomFichier"| afficher le contenu d'un fichier texte| more nomFichier.txt
-rm nomFichier|supprimer fichier| rm nomFichier
-rmdir nomFichier| supprimer repertoire | rmdir nomFichier
-find nomFichier | trouver un fichier ou repertoire et afficher son emplacement ou si il existe ..| where nomFichier
-grep nomRepertoire "caractere recherché" | chercher une chaine de caracteres dans un fichier texte et afficher son emplacement | findstr "chaine de caracteres" nomReperotoire
-cp nomFichierSource nomFichierDestination | copier un fichier a un autre endroit | copy 
-mv fichierSource fichierDestination | deplacer un fichier | move fichierSource fichierDestination 
-chmod [chiffre] nomFichier|changer les droits d'un fichier| attrib [options]
+[cd "nom Fichier"](#cd-et-pwd)|se déplacer | [cd](#cd) 
+[ls](#ls)|donne la liste ds fichiers et répértoires|[dir](#dir)
+[tree](#tree)| arborescence des fichiers|[tree](#tree-1)
+[alias nomV="contenu"](#alias)|attribuer une donnée ou chaine de caracteres a une variable | [set nomV="contenu"](#set)
+[mkdir "nomRepertoire"](#mkdir)|créer un répértoire| [mkdir "nom repertoire"](#mkdir-1)
+[pwd](#pwd)|afficher le repertoire courant|..
+[touch "nomFichier"](#touch)| creer fichier | [md "nomFichier"](#md)
+[echo "valeur" > nomFichier.txt](#echo-valeurnomfichiertxt)|ecrire dans un fichier texte | [echo "valeur">nomFichier.txt](#echo-valeur--nomfictxt)
+[cat "nomFichier"](#cat)| afficher le contenu d'un fichier texte| [more nomFichier.txt](#more)
+[rm nomFichier](#rm)|supprimer fichier| [rmdir nomFichier](#rmdir)
+[rmdir nomFichier](#rmdir)| supprimer repertoire | [rmdir nomFichier](#rmdir)
+[find nomFichier](#find) | trouver un fichier ou repertoire et afficher son emplacement ou si il existe ..| [where nomFichier](#where)
+[grep nomRepertoire "caractere recherché"](#grep) | chercher une chaine de caracteres dans un fichier texte et afficher son emplacement | [findstr "chaine de caracteres" nomReperotoire](#findstr)
+[cp nomFichierSource nomFichierDestination](#cp) | copier un fichier a un autre endroit | [copy](#copy) 
+[mv fichierSource fichierDestination](#mv) | deplacer un fichier | [move fichierSource fichierDestination](#move)
+[chmod [chiffre] nomFichier](#chmod)|changer les droits d'un fichier| [attrib [options]](#attrib)
 
 # Détail et utilisations des commandes Linux :
 
@@ -263,7 +263,7 @@ chmod [chiffre] nomFichier|changer les droits d'un fichier| attrib [options]
 
 ![tree](images/tree.png)
 
-# alias 
+# set 
 
 ![set](images/set.png)
 
