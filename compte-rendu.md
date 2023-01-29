@@ -188,6 +188,122 @@ chmod [chiffre] nomFichier|changer les droits d'un fichier| attrib [options]
 ![arpdelete](wimages/arpdelete.JPG)
 
 
+# Détail et utilisations des commandes Linux :
+
+## cd et pwd
+
+![cd](images/pwd.png)
+
+## ls 
+
+![ls](images/ls.png)
+
+## tree
+
+![tree](images/treeL.png)
+
+## alias 
+
+![alias](images/alias.png)
+
+## mkdir 
+
+![mkdir](images/mkdirL.png)
+
+## pwd 
+
+![pwd](images/pwd.png)
+
+## touch 
+![touch](images/touch.png)
+
+## echo "valeur">nomFichier.txt
+
+![echo](images/ecrire.png)
+
+## cat 
+![cat](images/cat.png)
+
+## rm 
+![rm](images/rm.png)
+
+## rmdir
+
+![rmdir](images/rmdirL.png)
+
+## find 
+![find](images/findL.png)
+
+## grep 
+
+![grep](images/grep.png)
+
+## cp
+
+![cp](images/cp.png)
+
+## mv 
+
+![mv](images/mv.png)
+
+## chmod 
+![chmod](images/chmod.png)
+
+
+
+# Commandes OS Windows 
+
+# cd 
+![cd](images/cd.png)
+
+# dir 
+![dir](images/dir.png)
+
+# tree 
+
+![tree](images/tree.png)
+
+# alias 
+
+![set](images/set.png)
+
+# mkdir 
+
+![mkdir](images/mkdir.png)
+
+#  md 
+
+![md](images/md.png)
+
+# echo "Valeur" > nomFic.txt
+
+
+# more 
+![more](images/more.png)
+
+# rmdir
+![rmdir](images/rmdir.png)
+
+# where
+
+![where](images/where.png)
+
+# findstr 
+
+![findstr](images/findstr.png)
+
+# copy 
+![copy](images/.png)
+
+# move 
+
+![move](images/move.png)
+
+# attrib
+
+![attrib](images/attrib.png)
+
+
 <div id="scroll_to_top">
     <a href="#top"><img src="hdp.png" alt="Retourner en haut"/></a>
     <h5>TOP</h5>
